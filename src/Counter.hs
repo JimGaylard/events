@@ -1,4 +1,8 @@
-module Counter (allMyCounters, myLatestCounter)
+module Counter
+  ( allMyCounters
+  , myLatestCounter
+  , CounterEvent(..)
+  )
   where
 
 import Eventful (Projection(Projection), allProjections, latestProjection, projectionSeed, projectionEventHandler)

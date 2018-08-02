@@ -38,6 +38,9 @@ library:
     - Counter
   dependencies:
     - eventful-core
+    - eventful-memory
+    - stm
+    - uuid-types
 
 executables:
   events-exe:
